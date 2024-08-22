@@ -1,0 +1,29 @@
+{
+  "name": "dss/m2-productimages-remove-duplicates",
+  "description": "Dss Duplicate Product Image Remove Module",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Extension Team",
+      "email": "info@digitsoftsol.com",
+      "homepage": "https://www.digitsoftsol.com"
+    }
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {
+    "php": "^8.1",
+    "magento/product-community-edition": "^2.4.5"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Dss\\ProductImagesRemoveDuplicates\\": ""
+    }
+  }
+}
